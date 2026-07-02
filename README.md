@@ -1,4 +1,12 @@
 # 100-Days-of-DevOps
 
-# 🚀 Day 001 – Linux User Setup with Non-Interactive Shell
-# 🚀 Day 002 – Temporary User Account with Expiry Date
+---
+
+## 📅 Challenge Progress
+
+| Day | Topic | Status |
+|-----|------------------------------------------|--------|
+| 001 | User Setup (Non-Interactive Shell) | ✅ Completed |
+| 002 | Temporary User Account Expiry | ✅ Completed |
+
+---
