@@ -199,16 +199,6 @@ day-002-temporary-user-expiry/
 │── README.md
 ```
 
----
-
-## 📅 Challenge Progress
-
-| Day | Topic | Status |
-|-----|------------------------------------------|--------|
-| 001 | Linux User Setup (Non-Interactive Shell) | ✅ Completed |
-| 002 | Temporary User Account with Expiry Date | ✅ Completed |
-
----
 
 ## 📖 Commands Reference
 
