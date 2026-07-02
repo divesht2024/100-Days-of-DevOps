@@ -173,15 +173,6 @@ id jim
 
 ---
 
----
-
-## 📅 Challenge Progress
-
-| Day | Topic | Status |
-|-----|-------------------------------|--------|
-| 001 | Linux User Setup (Non-Interactive Shell) | ✅ Completed |
-
----
 
 ## 📌 Resources
 
