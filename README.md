@@ -12,4 +12,5 @@
 | 004 | Script Execution Permissions | ✅ Completed |
 | 005 | SELinux Installation and Configuration | ✅ Completed |
 | 006 | Create a Cron Job | ✅ Completed |
+| 007 | Linux SSH Authentication | ✅ Completed |
 ---
