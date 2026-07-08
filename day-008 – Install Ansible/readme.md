@@ -1,4 +1,4 @@
-# 🚀 Day 008 – Install Ansible 4.9.0 Using pip3
+# 🚀 Day 008 – Install Ansible
 
 ## 📖 Overview
 
