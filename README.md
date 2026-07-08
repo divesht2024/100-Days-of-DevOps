@@ -13,4 +13,5 @@
 | 005 | SELinux Installation and Configuration | ✅ Completed |
 | 006 | Create a Cron Job | ✅ Completed |
 | 007 | Linux SSH Authentication | ✅ Completed |
+| 008 | Install Ansible  | ✅ Completed |
 ---
