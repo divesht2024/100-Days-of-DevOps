@@ -14,4 +14,5 @@
 | 006 | Create a Cron Job | ✅ Completed |
 | 007 | Linux SSH Authentication | ✅ Completed |
 | 008 | Install Ansible  | ✅ Completed |
+| 009 | MariaDB Troubleshooting  | ✅ Completed |
 ---
