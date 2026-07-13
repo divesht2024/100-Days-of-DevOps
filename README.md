@@ -15,4 +15,5 @@
 | 007 | Linux SSH Authentication | ✅ Completed |
 | 008 | Install Ansible  | ✅ Completed |
 | 009 | MariaDB Troubleshooting  | ✅ Completed |
+| 011 | Install and Configure Tomcat Server         | ✅ Completed |
 ---
