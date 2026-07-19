@@ -16,4 +16,5 @@
 | 008 | Install Ansible  | ✅ Completed |
 | 009 | MariaDB Troubleshooting  | ✅ Completed |
 | 011 | Install and Configure Tomcat Server         | ✅ Completed |
+| 012 | Linux Network Services                      | ✅ Completed |
 ---
