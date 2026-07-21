@@ -17,4 +17,6 @@
 | 009 | MariaDB Troubleshooting  | ✅ Completed |
 | 011 | Install and Configure Tomcat Server         | ✅ Completed |
 | 012 | Linux Network Services                      | ✅ Completed |
+
+| 014 | Linux Process Troubleshooting               | ✅ Completed |
 ---
