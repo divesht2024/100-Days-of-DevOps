@@ -156,4 +156,5 @@ Each day's folder may contain:
 | 012 | Linux Network Services                      | ✅ Completed |
 | 013 | IPtables Installation And Configuration       | ✅ Completed |
 | 014 | Linux Process Troubleshooting               | ✅ Completed |
+| 015 | Setup SSL for Nginx                         | ✅ Completed |
 ---
