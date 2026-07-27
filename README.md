@@ -157,4 +157,5 @@ Each day's folder may contain:
 | 013 | IPtables Installation And Configuration       | ✅ Completed |
 | 014 | Linux Process Troubleshooting               | ✅ Completed |
 | 015 | Setup SSL for Nginx                         | ✅ Completed |
+| 016 | Install and Configure Nginx as a Load Balancer | ✅ Completed |
 ---
