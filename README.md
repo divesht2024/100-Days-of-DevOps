@@ -158,4 +158,5 @@ Each day's folder may contain:
 | 014 | Linux Process Troubleshooting               | ✅ Completed |
 | 015 | Setup SSL for Nginx                         | ✅ Completed |
 | 016 | Install and Configure Nginx as a Load Balancer | ✅ Completed |
+| 017 | Install and Configure PostgreSQL               | ✅ Completed |
 ---
