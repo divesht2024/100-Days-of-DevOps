@@ -160,4 +160,5 @@ Each day's folder may contain:
 | 016 | Install and Configure Nginx as a Load Balancer | ✅ Completed |
 | 017 | Install and Configure PostgreSQL               | ✅ Completed |
 | 018 | Install and Configure Database Server          | ✅ Completed |
+| 019 | Install and Configure Web Application          | ✅ Completed |
 ---
