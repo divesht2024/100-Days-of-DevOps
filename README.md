@@ -161,4 +161,5 @@ Each day's folder may contain:
 | 017 | Install and Configure PostgreSQL               | ✅ Completed |
 | 018 | Install and Configure Database Server          | ✅ Completed |
 | 019 | Install and Configure Web Application          | ✅ Completed |
+| 020 | Configure Nginx + PHP-FPM Using Unix Socket    | ✅ Completed |
 ---
