@@ -162,4 +162,6 @@ Each day's folder may contain:
 | 018 | Install and Configure Database Server          | ✅ Completed |
 | 019 | Install and Configure Web Application          | ✅ Completed |
 | 020 | Configure Nginx + PHP-FPM Using Unix Socket    | ✅ Completed |
+| 021 | Set Up Git Repository on Storage Server      | ✅ Completed |
+
 ---
