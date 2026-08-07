@@ -165,4 +165,5 @@ Each day's folder may contain:
 | 021 | Set Up Git Repository on Storage Server      | ✅ Completed |
 | 022 | Clone Git Repository on Storage Server       | ✅ Completed |
 | 023 | Fork a Git Repository                        | ✅ Completed |
+| 024 | Git Create Branches                          | ✅ Completed |
 ---
