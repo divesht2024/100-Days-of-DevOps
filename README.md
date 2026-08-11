@@ -154,7 +154,7 @@ Each day's folder may contain:
 | 009 | MariaDB Troubleshooting  | ✅ Completed |
 | 011 | Install and Configure Tomcat Server         | ✅ Completed |
 | 012 | Linux Network Services                      | ✅ Completed |
-| 013 | IPtables Installation And Configuration       | ✅ Completed |
+| 013 | IPtables Installation And Configuration     | ✅ Completed |
 | 014 | Linux Process Troubleshooting               | ✅ Completed |
 | 015 | Setup SSL for Nginx                         | ✅ Completed |
 | 016 | Install and Configure Nginx as a Load Balancer | ✅ Completed |
@@ -167,4 +167,7 @@ Each day's folder may contain:
 | 023 | Fork a Git Repository                        | ✅ Completed |
 | 024 | Git Create Branches                          | ✅ Completed |
 | 025 |: Git Merge Branches                          | ✅ Completed |
+| 027 |: Git Revert Some Changes                     | ✅ Completed |
+
+
 ---
