@@ -13,21 +13,21 @@
 | 007 | Linux SSH Authentication | ✅ Completed |
 | 008 | Install Ansible  | ✅ Completed |
 | 009 | MariaDB Troubleshooting  | ✅ Completed |
-| 011 | Install and Configure Tomcat Server         | ✅ Completed |
-| 012 | Linux Network Services                      | ✅ Completed |
-| 013 | IPtables Installation And Configuration     | ✅ Completed |
-| 014 | Linux Process Troubleshooting               | ✅ Completed |
-| 015 | Setup SSL for Nginx                         | ✅ Completed |
+| 011 | Install and Configure Tomcat Server  | ✅ Completed |
+| 012 | Linux Network Services  | ✅ Completed |
+| 013 | IPtables Installation And Configuration  | ✅ Completed |
+| 014 | Linux Process Troubleshooting  | ✅ Completed |
+| 015 | Setup SSL for Nginx  | ✅ Completed |
 | 016 | Install and Configure Nginx as a Load Balancer | ✅ Completed |
-| 017 | Install and Configure PostgreSQL               | ✅ Completed |
-| 018 | Install and Configure Database Server          | ✅ Completed |
-| 019 | Install and Configure Web Application          | ✅ Completed |
-| 020 | Configure Nginx + PHP-FPM Using Unix Socket    | ✅ Completed |
-| 021 | Set Up Git Repository on Storage Server      | ✅ Completed |
-| 022 | Clone Git Repository on Storage Server       | ✅ Completed |
-| 023 | Fork a Git Repository                        | ✅ Completed |
-| 024 | Git Create Branches                          | ✅ Completed |
-| 025 | Git Merge Branches                          | ✅ Completed |
-| 027 | Git Revert Some Changes                     | ✅ Completed |
-| 028 |  Git Cherry Pick                            | ✅ Completed |
+| 017 | Install and Configure PostgreSQL  | ✅ Completed |
+| 018 | Install and Configure Database Server  | ✅ Completed |
+| 019 | Install and Configure Web Application   | ✅ Completed |
+| 020 | Configure Nginx + PHP-FPM Using Unix Socket  | ✅ Completed |
+| 021 | Set Up Git Repository on Storage Server  | ✅ Completed |
+| 022 | Clone Git Repository on Storage Server  | ✅ Completed |
+| 023 | Fork a Git Repository | ✅ Completed |
+| 024 | Git Create Branches | ✅ Completed |
+| 025 | Git Merge Branches  | ✅ Completed |
+| 027 | Git Revert Some Changes  | ✅ Completed |
+| 028 |  Git Cherry Pick | ✅ Completed |
 ---
