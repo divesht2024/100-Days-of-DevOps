@@ -166,8 +166,7 @@ Each day's folder may contain:
 | 022 | Clone Git Repository on Storage Server       | ✅ Completed |
 | 023 | Fork a Git Repository                        | ✅ Completed |
 | 024 | Git Create Branches                          | ✅ Completed |
-| 025 |: Git Merge Branches                          | ✅ Completed |
-| 027 |: Git Revert Some Changes                     | ✅ Completed |
-
-
+| 025 | Git Merge Branches                          | ✅ Completed |
+| 027 | Git Revert Some Changes                     | ✅ Completed |
+| 028 |  Git Cherry Pick                            | ✅ Completed |
 ---
