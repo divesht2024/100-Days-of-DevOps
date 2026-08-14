@@ -30,4 +30,5 @@
 | 025 | Git Merge Branches  | ✅ Completed |
 | 027 | Git Revert Some Changes  | ✅ Completed |
 | 028 |  Git Cherry Pick | ✅ Completed |
+| 029 |  Manage Git Pull Requests | ✅ Completed |
 ---
