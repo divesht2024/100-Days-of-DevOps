@@ -1,242 +1,298 @@
+# Git Pull Request Workflow – Lab Solution
+
+## Overview
+
+This lab demonstrates a standard Git workflow using **feature branches**, **Pull Requests**, **code review**, and **merging changes into the master branch**.
+
+In this lab:
+
+* **Max** has created a new story on a feature branch.
+* Max creates a **Pull Request** to merge the changes into `master`.
+* **Tom** reviews the Pull Request.
+* Tom approves the changes.
+* The Pull Request is merged into the `master` branch.
+
 ---
 
-# Lab Solutions
+# Part 1: Lab Step-by-Step Solution
 
-Part 1: Lab Step-by-Step Guidelines
+## Step 1: SSH into the Storage Server
 
-Step 1: SSH into the Storage Server
+From the jump host, connect to the storage server as user `max`:
 
-From the jump host, connect as max:
-
-```
+```bash
 ssh max@ststor01
 ```
 
-Password:
+Enter the password:
 
-```
+```text
 Max_pass123
 ```
 
-Step 2: Go to the Git Repository
+---
 
-Check Max's home directory:
+## Step 2: Navigate to the Git Repository
 
-```
+Check your current directory:
+
+```bash
 pwd
 ```
-List files:
 
-```
+List the available files and directories:
+
+```bash
 ls
 ```
 
-Enter the cloned repository (replace with the correct repository name if different):
+Navigate to the cloned Git repository:
 
-
-cd <repo-name>
-
-Example:
-
+```bash
+cd <repository-name>
 ```
+
+For example:
+
+```bash
 cd story-blog
 ```
 
-Step 3: Verify Sarah's Story Exists
+---
 
-Check repository contents:
+## Step 3: Verify Sarah's Existing Work
 
-```
+Check the contents of the repository:
+
+```bash
 ls -la
 ```
 
-View commit history:
+View the commit history:
 
-```
+```bash
 git log --oneline --decorate --graph
 ```
 
-View detailed history:
+For detailed commit information:
 
+```bash
 git log
-
-Verify:
-
-Sarah's commits exist
-Author information
-Commit messages
-Branch history
-
-Step 4: Verify Max's Branch
-
-Check branches:
-
 ```
+
+Verify the following:
+
+* Sarah's commits exist.
+* The commit author information is correct.
+* The commit messages are present.
+* The repository history is available.
+
+---
+
+## Step 4: Verify Max's Feature Branch
+
+Check the available local branches:
+
+```bash
 git branch
 ```
 
-or
+You can also check both local and remote branches:
 
-```
+```bash
 git branch -a
 ```
 
-You should see:
+You should see branches similar to:
 
+```text
 master
-
-
 story/fox-and-grapes
+```
 
-Step 5: Open the Gitea Web UI
+The branch:
 
-Click the Gitea UI button at the top of the lab.
+```text
+story/fox-and-grapes
+```
 
-Login:
+contains Max's new story.
 
-Username:
+---
 
-max
+## Step 5: Open the Gitea Web Interface
 
-Password:
+Open the **Gitea UI** from the lab environment.
 
-Max_pass123
+Log in using:
 
-Step 6: Create the Pull Request
+```text
+Username: max
+Password: Max_pass123
+```
 
-Open the repository.
+---
 
-Click:
+## Step 6: Create a Pull Request
 
+Open the `story-blog` repository.
+
+Navigate to:
+
+```text
 Pull Requests
+→ New Pull Request
+```
 
-↓
+Configure the Pull Request as follows:
 
-New Pull Request
+| Option             | Value                  |
+| ------------------ | ---------------------- |
+| Source Branch      | `story/fox-and-grapes` |
+| Destination Branch | `master`               |
 
-Configure:
+Click **Compare**.
 
-Option	            Value
-Source Branch	    story/fox-and-grapes
-Destination Branch	master
+Then click:
 
-Click:
-
-Compare
-
-Then:
-
+```text
 Create Pull Request
+```
 
-PR Title:
+Use the following Pull Request title:
 
+```text
 Added fox-and-grapes story
+```
 
-Click:
+Finally, click:
 
+```text
 Create Pull Request
+```
 
-Step 7: Add Tom as Reviewer
+At this stage, the changes have **not been merged yet**. The Pull Request is waiting for review.
 
-Inside the PR:
+---
 
-On the right side:
+## Step 7: Add Tom as the Reviewer
 
-Reviewers
-
-↓
+Inside the Pull Request, locate the **Reviewers** section on the right side.
 
 Select:
 
+```text
 tom
+```
 
-Tom should now appear as the reviewer.
+Tom is now assigned as the reviewer for the Pull Request.
 
-📸 Take a screenshot (recommended by the lab).
+---
 
-Step 8: Logout
+## Step 8: Log Out as Max
 
-Click your profile.
+Click your profile and select:
 
-Select:
-
+```text
 Sign Out
+```
 
-Step 9: Login as Tom
+---
 
-Username:
+## Step 9: Log In as Tom
 
-tom
+Log in using:
 
-Password:
+```text
+Username: tom
+Password: Tom_pass123
+```
 
-Tom_pass123
+---
 
-Step 10: Open the Pull Request
+## Step 10: Open the Pull Request
 
-Go to:
+Navigate to:
 
+```text
 Pull Requests
+```
 
-Open:
+Open the Pull Request:
 
+```text
 Added fox-and-grapes story
+```
 
-Step 11: Review the Pull Request
+---
 
-Click:
+## Step 11: Review and Approve the Pull Request
 
+Review the changes made by Max.
+
+If everything looks correct, click:
+
+```text
 Review
+→ Approve
+→ Submit Review
+```
 
-Choose:
+Tom has now approved the Pull Request.
 
-Approve
+---
 
-Submit the review.
-
-Step 12: Merge the Pull Request
+## Step 12: Merge the Pull Request
 
 Click:
 
+```text
 Merge Pull Request
+```
 
 Confirm the merge.
 
-You should see a success message indicating the PR has been merged into master.
+The changes from:
 
-📸 Take another screenshot after the merge.
-
-Step 13 (Optional Verification)
-
-SSH back into the repository if needed:
-
+```text
+story/fox-and-grapes
 ```
+
+will now be merged into:
+
+```text
+master
+```
+
+The Pull Request should now show that it has been successfully merged.
+
+---
+
+## Step 13: Verify the Merge
+
+Return to the storage server and switch to the `master` branch:
+
+```bash
 git checkout master
+```
+
+Pull the latest changes:
+
+```bash
 git pull
+```
+
+Check the commit history:
+
+```bash
 git log --oneline
 ```
 
-Verify the merge commit exists.
+The output should show a merge commit similar to:
 
-```
-[max@ststor01 story-blog]$ git checkout master
-git pull
-git log --oneline
-Switched to branch 'master'
-Your branch is up to date with 'origin/master'.
-remote: Enumerating objects: 1, done.
-remote: Counting objects: 100% (1/1), done.
-remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-Unpacking objects: 100% (1/1), 312 bytes | 312.00 KiB/s, done.
-From http://gitea:3000/sarah/story-blog
-   0d97f1b..b4673ac  master     -> origin/master
-Updating 0d97f1b..b4673ac
-Fast-forward
- fox-and-grapes.txt | 21 +++++++++++++++++++++
- 1 file changed, 21 insertions(+)
- create mode 100644 fox-and-grapes.txt
-b4673ac (HEAD -> master, origin/master, origin/HEAD) Merge pull request 'Added fox-and-grapes story' (#1) from story/fox-and-grapes into master
-3603693 (origin/story/fox-and-grapes, story/fox-and-grapes) Added fox-and-grapes story
+```text
+b4673ac Merge pull request 'Added fox-and-grapes story' (#1) from story/fox-and-grapes into master
+3603693 Added fox-and-grapes story
 0d97f1b Merge branch 'story/frogs-and-ox'
 e1bbdfe Fix typo in story title
 1fdc99d Completed frogs-and-ox story
@@ -244,110 +300,302 @@ e1bbdfe Fix typo in story title
 a3b4476 Add incomplete frogs-and-ox story
 ```
 
+You can also verify that the new story file has been added:
+
+```bash
+ls
+```
+
+The repository should now contain:
+
+```text
+fox-and-grapes.txt
+```
+
 ---
 
-Part 2: Simple Step-by-Step Explanations (Beginner Friendly)
+# Part 2: Beginner-Friendly Explanation
 
-- What is happening in this lab?
+## What Is Happening in This Lab?
 
-Instead of allowing developers to push directly to the master branch, they first create a Pull Request (PR). Another developer reviews the changes before they are merged. This is a standard Git workflow used by most software teams.
+This lab demonstrates a common Git workflow used by software development teams.
 
-Step 1
+Instead of allowing developers to directly push changes to the `master` branch, developers work on separate **feature branches**.
 
-Connect to the storage server as max.
+Once the work is completed, the developer creates a **Pull Request (PR)**.
 
-This lets you access Max's local copy of the Git repository.
+Another developer reviews the changes before they are merged into the main branch.
 
-Step 2
+The workflow looks like this:
 
-Go into the cloned Git repository.
+```text
+Developer creates a feature branch
+            ↓
+Developer makes changes
+            ↓
+Developer commits the changes
+            ↓
+Developer creates a Pull Request
+            ↓
+Reviewer checks the changes
+            ↓
+Reviewer approves the Pull Request
+            ↓
+Changes are merged into master
+```
 
-This is where Max's code is stored locally.
+---
 
-Step 3
+## Step 1: Connect to the Storage Server
 
-Run:
+You connect to the storage server as `max`.
 
+```bash
+ssh max@ststor01
+```
+
+This gives you access to Max's local copy of the Git repository.
+
+---
+
+## Step 2: Navigate to the Repository
+
+You move into the cloned Git repository:
+
+```bash
+cd story-blog
+```
+
+This directory contains the project files and Git history.
+
+---
+
+## Step 3: Check the Existing Git History
+
+Running:
+
+```bash
 git log
+```
 
-This lets you see:
+allows you to see:
 
-- Who made previous commits (such as Sarah)
-The commit messages
-The commit history
+* Previous commits.
+* Who created the commits.
+* Commit messages.
+* The history of the repository.
 
-You're simply confirming the repository already contains Sarah's work.
-
-Step 4
-
-Check the available branches.
-
-You should see Max's feature branch:
-
-story/fox-and-grapes
-
-This branch contains Max's new story.
-
-Step 5
-
-Open the Gitea web interface and log in as max.
-
-This is where you'll manage Pull Requests.
-
-Step 6
-
-Create a Pull Request.
-
-You're requesting to merge:
-
-story/fox-and-grapes
-
-into
-
-master
-
-Give it this title:
-
-Added fox-and-grapes story
-
-At this point, nothing has been merged yet. You're just asking for approval.
-
-Step 7
-
-Assign tom as the reviewer.
-
-This means Tom will review the code before it can be merged.
-
-Step 8
-
-Log out as Max.
-
-Step 9
-
-Log in as tom.
-
-Now you're acting as the reviewer.
-
-Step 10
-
-Open the Pull Request created by Max.
-
-Step 11
-
-Review the changes.
-
-If everything looks good, click:
-
-Approve
-
-This tells the team the changes are acceptable.
-
-Step 12
-
-Merge the Pull Request.
-
-This combines Max's story with the master branch.
-
-The work is now officially part of the main project.
+This confirms that Sarah's previous work already exists in the project.
 
 ---
+
+## Step 4: Check Max's Feature Branch
+
+The branch:
+
+```text
+story/fox-and-grapes
+```
+
+contains Max's new work.
+
+Instead of directly modifying the `master` branch, Max worked on a separate feature branch.
+
+This is a good practice because it keeps the main branch safe from unfinished or unreviewed changes.
+
+---
+
+## Step 5: Log In to Gitea as Max
+
+Max logs in to the Gitea web interface.
+
+Gitea provides a web interface where developers can manage repositories, branches, Pull Requests, and code reviews.
+
+---
+
+## Step 6: Create a Pull Request
+
+Max requests to merge:
+
+```text
+story/fox-and-grapes
+```
+
+into:
+
+```text
+master
+```
+
+The Pull Request title is:
+
+```text
+Added fox-and-grapes story
+```
+
+At this point, the changes are **not merged yet**.
+
+The Pull Request is waiting for another developer to review the changes.
+
+---
+
+## Step 7: Assign Tom as the Reviewer
+
+Tom is assigned as the reviewer.
+
+His responsibility is to check Max's changes before they are merged into the main branch.
+
+The reviewer can:
+
+* Approve the changes.
+* Request changes.
+* Comment on the code.
+
+This process helps maintain code quality.
+
+---
+
+## Step 8: Log Out as Max
+
+Max logs out after creating the Pull Request and assigning Tom as the reviewer.
+
+---
+
+## Step 9: Log In as Tom
+
+Now you log in as:
+
+```text
+tom
+```
+
+You are now acting as the reviewer.
+
+---
+
+## Step 10: Open the Pull Request
+
+Tom opens the Pull Request created by Max.
+
+He can now see the changes that Max wants to merge into the `master` branch.
+
+---
+
+## Step 11: Approve the Changes
+
+Tom reviews the changes.
+
+If everything looks correct, he selects:
+
+```text
+Approve
+```
+
+This means that the changes have been reviewed and are acceptable.
+
+---
+
+## Step 12: Merge the Pull Request
+
+After approval, the Pull Request can be merged.
+
+The changes move from:
+
+```text
+story/fox-and-grapes
+```
+
+into:
+
+```text
+master
+```
+
+The new story is now officially part of the main project.
+
+---
+
+# Final Workflow Summary
+
+```text
+                    Max
+                     │
+                     ▼
+        Creates a feature branch
+        story/fox-and-grapes
+                     │
+                     ▼
+              Makes changes
+                     │
+                     ▼
+          Creates Pull Request
+                     │
+                     ▼
+           Assigns Tom as reviewer
+                     │
+                     ▼
+                    Tom
+                     │
+                     ▼
+            Reviews the changes
+                     │
+                     ▼
+          Approves the Pull Request
+                     │
+                     ▼
+           Merge Pull Request
+                     │
+                     ▼
+                  master
+```
+
+---
+
+# Commands Used in This Lab
+
+| Command               | Purpose                                                           |
+| --------------------- | ----------------------------------------------------------------- |
+| `ssh max@ststor01`    | Connect to the storage server                                     |
+| `pwd`                 | Display the current directory                                     |
+| `ls`                  | List files and directories                                        |
+| `cd story-blog`       | Navigate to the Git repository                                    |
+| `git log`             | View detailed commit history                                      |
+| `git log --oneline`   | View a simplified commit history                                  |
+| `git branch`          | List local branches                                               |
+| `git branch -a`       | List local and remote branches                                    |
+| `git checkout master` | Switch to the master branch                                       |
+| `git pull`            | Download and update the latest changes from the remote repository |
+
+---
+
+# Key Concepts Learned
+
+* Git branches
+* Feature branches
+* Pull Requests
+* Code review
+* Assigning reviewers
+* Pull Request approval
+* Merging branches
+* Checking Git commit history
+* Synchronizing a local repository with a remote repository
+
+---
+
+## Final Result
+
+The changes created by Max in the:
+
+```text
+story/fox-and-grapes
+```
+
+branch are successfully reviewed by Tom and merged into:
+
+```text
+master
+```
+
+The `fox-and-grapes.txt` file is now part of the main project branch.
+
+**Lab completed successfully.**
