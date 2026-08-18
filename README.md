@@ -38,5 +38,6 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 028 | Git Cherry-Pick                                | ✅ Completed |
 | 029 | Manage Git Pull Requests                       | ✅ Completed |
 | 030 | Git hard reset                                 | ✅ Completed |       
-| 030 | Git Stash                                      | ✅ Completed |
+| 031 | Git Stash                                      | ✅ Completed |
+| 032 | Git Rebase                                     | ✅ Completed |
 ---
