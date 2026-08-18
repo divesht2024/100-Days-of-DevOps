@@ -1,33 +1,53 @@
+# Git Rebase: Feature Branch Sync with Master
 
-Connected to the Storage Server
+## Steps Performed
+
+### 1. Connected to the Storage Server
+
+```bash
 ssh natasha@ststor01
+```
 
-Navigated to the Repository
+### 2. Navigated to the Repository
+
+```bash
 cd /usr/src/kodekloudrepos/blog
+```
 
-Handled Git Safe Directory & Permission Issues
-Sometimes in shared environments, Git warns about “dubious ownership.” I resolved it by marking the directory as safe:
+### 3. Handled Git Safe Directory & Permission Issues
 
-git config - global - add safe.directory /usr/src/kodekloudrepos/blog
+In shared environments, Git may warn about **“dubious ownership.”** I resolved this by marking the repository as a safe directory:
 
-Fetched the Latest Changes
+```bash
+git config --global --add safe.directory /usr/src/kodekloudrepos/blog
+```
+
+### 4. Fetched the Latest Changes
+
+```bash
 sudo git fetch origin
+```
 
-Switched to the Feature Branch
+### 5. Switched to the Feature Branch
+
+```bash
 sudo git checkout feature
+```
 
-Rebased Feature onto Master
+### 6. Rebased Feature onto Master
+
+```bash
 sudo git rebase master
+```
 
+## Outcome
 
-Outcome
+* The `feature` branch is now perfectly in sync with `master`.
+* The commit history is linear and clean.
+* There is no unnecessary merge clutter, making future reviews and debugging easier.
 
-feature branch is now perfectly in sync with master.
-Commit history is linear and clean.
-No merge clutter, making future reviews and debugging easier.
+## Key Takeaways
 
-Key Takeaways
-
-git rebase is great for maintaining a clean history — but requires careful use, especially on shared branches.
-Always fetch before rebasing to ensure you’re working with the latest state.
-— force-with-lease is safer than a blind — force push.
+* **`git rebase`** is useful for maintaining a clean and linear Git history, but it should be used carefully, especially on shared branches.
+* Always **fetch the latest changes** before rebasing to ensure you are working with the most up-to-date state.
+* **`git push --force-with-lease`** is safer than a blind `git push --force` when updating a rebased remote branch.
