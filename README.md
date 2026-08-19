@@ -40,4 +40,5 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 030 | Git hard reset                                 | ✅ Completed |       
 | 031 | Git Stash                                      | ✅ Completed |
 | 032 | Git Rebase                                     | ✅ Completed |
+| 033 | Resolve Git Merge Conflicts                    | ✅ Completed |
 ---
