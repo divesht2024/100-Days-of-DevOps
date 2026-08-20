@@ -41,4 +41,8 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 031 | Git Stash                                      | ✅ Completed |
 | 032 | Git Rebase                                     | ✅ Completed |
 | 033 | Resolve Git Merge Conflicts                    | ✅ Completed |
+| 034 | Git Hook                                       | ✅ Completed |
+| 035 | Install Docker Packages and Start Docker Service | ✅ Completed |
+
+
 ---
