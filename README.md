@@ -43,7 +43,8 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 033 | Resolve Git Merge Conflicts                    | ✅ Completed |
 | 034 | Git Hook                                       | ✅ Completed |
 | 035 | Install Docker Packages and Start Docker Service | ✅ Completed |
-| 035 | Deploy Nginx Container on Application Server | ✅ Completed |
-| 035 | Copy File to Docker Container | ✅ Completed |
+| 036 | Deploy Nginx Container on Application Server | ✅ Completed |
+| 037 | Copy File to Docker Container | ✅ Completed |
+| 038 | Pull Docker Image | ✅ Completed |
 
 ---
