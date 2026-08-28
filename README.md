@@ -48,4 +48,5 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 038 | Pull Docker Image | ✅ Completed |
 | 039 | Create a Docker Image From Container | ✅ Completed |
 | 040 | Docker EXEC Operations | ✅ Completed |
+| 041 | Write a Docker File | ✅ Completed |
 ---
