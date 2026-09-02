@@ -51,4 +51,5 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 041 | Write a Docker File | ✅ Completed |
 | 042 | Create a Docker Network | ✅ Completed |
 | 043 | Create a Docker Ports Mapping | ✅ Completed |
+| 044 | Create a Docker Compose File | ✅ Completed |
 ---
