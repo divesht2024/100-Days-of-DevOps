@@ -1,7 +1,1 @@
-The Dockerfile was supposed to:
-
-    Use the httpd:2.4.43 base image.
-    Enable SSL in Apache.
-    Copy certificates (server.crt, server.key) and a custom index.html into the container.
-
-But when I attempted a build, it failed. At first, it looked like a file path issue, but on closer inspection, I noticed the real culprit.
+The Nautilus DevOps team is working to create new images per requirements shared by the development team. One of the team members is working to create a Dockerfile on App Server 3 in Stratos DC. While working on it she ran into issues in which the docker build is failing and displaying errors. Look into the issue and fix it to build an image as per details mentioned below:
