@@ -1,6 +1,3 @@
-
-# Day 47: Docker Python App
-
 ## 🛠️ Task
 
 A python app needed to be Dockerized, and then it needs to be deployed on App Server 2. We have already copied a requirements.txt file (having the app dependencies) under `/python_app/src/` directory on App Server 2. Further complete this task as per details mentioned below:
