@@ -54,4 +54,5 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 044 | Create a Docker Compose File | ✅ Completed |
 | 045 | Resolve Docker File Issues | ✅ Completed |
 | 046 | Deploy an App on Docker Containers | ✅ Completed |
+| 047 | Docker Python App | ✅ Completed |
 ---
