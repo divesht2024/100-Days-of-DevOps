@@ -55,4 +55,5 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 045 | Resolve Docker File Issues | ✅ Completed |
 | 046 | Deploy an App on Docker Containers | ✅ Completed |
 | 047 | Docker Python App | ✅ Completed |
+| 048 | Deploy Pods in Kubernetes Cluster | ✅ Completed |
 ---
