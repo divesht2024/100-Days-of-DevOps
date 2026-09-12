@@ -56,4 +56,5 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 046 | Deploy an App on Docker Containers | ✅ Completed |
 | 047 | Docker Python App | ✅ Completed |
 | 048 | Deploy Pods in Kubernetes Cluster | ✅ Completed |
+| 048 | Deploy Applications with Kubernetes Deployments | ✅ Completed |
 ---
