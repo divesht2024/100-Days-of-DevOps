@@ -58,4 +58,6 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 048 | Deploy Pods in Kubernetes Cluster | ✅ Completed |
 | 049 | Deploy Applications with Kubernetes Deployments | ✅ Completed |
 | 050 | Set Resource Limits in Kubernetes Pods | ✅ Completed |
+| 051 | Execute Rolling Updates in Kubernetes | ✅ Completed |
+| 052 | Revert Deployment to Previous Version in Kubernetes | ✅ Completed |
 ---
