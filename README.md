@@ -60,4 +60,6 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 050 | Set Resource Limits in Kubernetes Pods | ✅ Completed |
 | 051 | Execute Rolling Updates in Kubernetes | ✅ Completed |
 | 052 | Revert Deployment to Previous Version in Kubernetes | ✅ Completed |
+| 053 | Resolve VolumeMounts Issue in Kubernetes | ✅ Completed |
+| 054 | Kubernetes Shared Volumes | ✅ Completed |
 ---
