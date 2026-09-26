@@ -63,4 +63,5 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 053 | Resolve VolumeMounts Issue in Kubernetes | ✅ Completed |
 | 054 | Kubernetes Shared Volumes | ✅ Completed |
 | 055 | Kubernetes Sidecar Containers | ✅ Completed |
+| 056 | Deploy Nginx Web Server on Kubernetes Cluster | ✅ Completed |
 ---
