@@ -62,4 +62,5 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 052 | Revert Deployment to Previous Version in Kubernetes | ✅ Completed |
 | 053 | Resolve VolumeMounts Issue in Kubernetes | ✅ Completed |
 | 054 | Kubernetes Shared Volumes | ✅ Completed |
+| 055 | Kubernetes Sidecar Containers | ✅ Completed |
 ---
