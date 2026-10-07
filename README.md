@@ -64,4 +64,6 @@ This repository contains my daily hands-on practice and learning journey in **Li
 | 054 | Kubernetes Shared Volumes | ✅ Completed |
 | 055 | Kubernetes Sidecar Containers | ✅ Completed |
 | 056 | Deploy Nginx Web Server on Kubernetes Cluster | ✅ Completed |
+| 057 | Print Environment Variables | ✅ Completed |
+| 058 | Deploy Grafana on Kubernetes Cluster | ✅ Completed |
 ---
